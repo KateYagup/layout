@@ -98,6 +98,11 @@
 .nav-links {
   width: 265px;
 
+  a {
+    text-decoration: none;
+    color: #2B292D99;
+  }
+
   &__title {
     color: #2b292d;
     font-size: 22px;
@@ -202,3 +207,7 @@
     line-height: 25px;
   }
 }
+
+// a {
+//   text-decoration: none;
+// }
