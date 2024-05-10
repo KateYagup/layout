@@ -6,7 +6,7 @@
     // opacity: 7%;
     background: $color-light-blue;
     padding: 50px 15px 0 15px;
-    max-width: 320px;
+    max-width: $sm;
 
     @include for-large-up {
         max-width: 100%;
@@ -29,7 +29,7 @@
         letter-spacing: -0.3571428954601288px;
         text-align: center;
         margin: 0;
-        max-width: 290px;
+        max-width: $sm;
         min-height: 80px;
         margin-top: 17px;
 
@@ -44,7 +44,7 @@
     }
 
     &__stage {
-        max-width: 290px;
+        max-width: $sm;
         // min-height: 136px;
         font-size: 24px;
         line-height: 34px;
@@ -94,11 +94,11 @@
         background-color: #FFFFFF;
         // margin-top: 40px;
         height: 300px;
-        max-width: 290px;
+        max-width: $sm;
         // margin-top: 15px;
         padding-top: 22px;
         border-radius: 2px;
-        width: 262px;
+        // width: 262px;
 
 
         // box-shadow: 0px 4px 6px 0px #0000000D;
@@ -130,7 +130,7 @@
     &__images-areal {
         display: flex;
         flex-direction: column;
-        max-width: 290px;
+        max-width: $sm;
 
         @include for-large-up {
             flex-direction: row;
