@@ -154,7 +154,6 @@
     width: 796px;
     height: 448px;
     margin-left: auto;
-    /* margin-top: 84px; */
   }
 }
 .headline__content {
@@ -211,7 +210,6 @@
   .headline__actions {
     margin-top: 58px;
     display: flex;
-    /* margin-bottom: 126px; */
   }
 }
 .headline__learn-more-btn {
@@ -886,7 +884,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   height: 300px;
   width: 262px;
   margin-bottom: 15px;
@@ -899,7 +897,7 @@
   cursor: pointer;
 }
 .audiences__images:hover .audiences__images-captions {
-  color: white;
+  color: #ffffff;
   background: #3141c5;
 }
 .audiences__images:hover .audiences__images-picture {

@@ -23,7 +23,6 @@
       width: 796px;
       height: 448px;
       margin-left: auto;
-      /* margin-top: 84px; */
     }
   }
 
@@ -80,7 +79,6 @@
     @include for-large-up {
       margin-top: 58px;
       display: flex;
-      /* margin-bottom: 126px; */
     }
   }
 
@@ -104,7 +102,6 @@
 
   &__action-btn {
     cursor: pointer;
-    // width: 100%;
     width: 100% !important;
 
     @include for-large-up {

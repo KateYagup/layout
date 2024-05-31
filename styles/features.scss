@@ -1,7 +1,5 @@
 @import 'breakpoints.scss';
 
-// Для десктопа
-
 .features {
     display: flex;
     position: relative;
@@ -19,7 +17,6 @@
     &__column {
         width: 459px;
     }
-
 
     &__subtitle {
         color: #009B4D;

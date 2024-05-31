@@ -3,7 +3,6 @@
 .customers {
   display: flex;
   flex-direction: column;
-  // flex-wrap: wrap;
 
   @include for-large-up {
     width: 1140px;

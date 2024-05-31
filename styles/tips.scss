@@ -1,6 +1,5 @@
 @import 'breakpoints.scss';
 
-// features для мобильного приложения
 .tips {
     margin-top: 8px;
 
@@ -49,7 +48,7 @@
     }
 
     &__image-caption {
-        color: rgba(43, 41, 45, 0.60);
+        color: #2b292d99;
         text-align: center;
         font-size: 14px;
         font-weight: 400;

@@ -8,7 +8,6 @@ $lg: 1200px;
     }
 }
 
-// @mixin for-medium-up {
 @mixin for-large-up {
     @media screen and (min-width: $sm) {
         @content;
