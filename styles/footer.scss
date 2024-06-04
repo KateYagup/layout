@@ -26,9 +26,7 @@
     margin-top: 40px;
 
     @include for-large-up {
-      margin: 0;
-      margin-top: 59px;
-      margin-bottom: 15px;
+      margin: 59px 0 15px;
     }
   }
 

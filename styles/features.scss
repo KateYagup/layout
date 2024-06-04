@@ -4,6 +4,11 @@
     display: flex;
     position: relative;
 
+    &__advantage-item-text {
+        padding-left: 15px;
+        line-height: 25px;
+    }
+
     @include for-extra-small {
         display: none;
     }
