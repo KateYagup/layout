@@ -2,133 +2,133 @@
 @import 'variables.scss';
 
 .audiences {
-    background: $color-light-blue;
-    padding: 50px 15px 0 15px;
+  background: $color-light-blue;
+  padding: 50px 15px 0 15px;
+  max-width: $sm;
+
+  @include for-large-up {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 108px;
+  }
+
+  &__subtitle {
+    margin: 0;
+    text-align: center;
+    font-size: 22px;
+    line-height: 34px;
+  }
+
+  &__title {
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.3571428954601288px;
+    text-align: center;
+    margin: 0;
     max-width: $sm;
+    min-height: 80px;
+    margin-top: 17px;
 
     @include for-large-up {
-        max-width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 108px;
+      max-width: 555px;
+      font-size: 56px;
+      line-height: 56px;
+      letter-spacing: -0.5px;
+      text-align: center;
+      margin-top: 24px;
     }
+  }
 
-    &__subtitle {
-        margin: 0;
-        text-align: center;
-        font-size: 22px;
-        line-height: 34px;
+  &__description {
+    max-width: $sm;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    margin: 0;
+    margin-top: 18px;
+
+    @include for-large-up {
+      max-width: 555px;
+      margin-top: 30px;
     }
+  }
 
-    &__title {
-        font-size: 40px;
-        line-height: 40px;
-        letter-spacing: -0.3571428954601288px;
-        text-align: center;
-        margin: 0;
-        max-width: $sm;
-        min-height: 80px;
-        margin-top: 17px;
+  &__actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
 
-        @include for-large-up {
-            max-width: 555px;
-            font-size: 56px;
-            line-height: 56px;
-            letter-spacing: -0.5px;
-            text-align: center;
-            margin-top: 24px;
-        }
+    @include for-large-up {
+      flex-direction: row;
+      margin-top: 34px;
     }
+  }
 
-    &__description {
-        max-width: $sm;
-        font-size: 24px;
-        line-height: 34px;
-        text-align: center;
-        margin: 0;
-        margin-top: 18px;
+  &__action-btn {
+    cursor: pointer;
 
-        @include for-large-up {
-            max-width: 555px;
-            margin-top: 30px;
-        }
+    @include for-extra-small {
+      width: 100% !important;
+      max-width: 290px;
     }
+  }
 
-    &__actions {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 30px;
-        padding-left: 15px;
-        padding-right: 15px;
+  &__images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    height: 300px;
+    width: 262px;
+    margin-bottom: 15px;
+    padding-top: 40px;
+    border-radius: 2px;
+    box-shadow: 0px 1px 3px 0px #0000001a;
+    margin-left: 5px;
 
-        @include for-large-up {
-            flex-direction: row;
-            margin-top: 34px;
-        }
+    &:hover {
+      background: $color-dark-blue;
+      cursor: pointer;
 
+      .audiences__images-captions {
+        color: #ffffff;
+        background: $color-dark-blue;
+      }
+
+      .audiences__images-picture {
+        background: $color-dark-blue;
+      }
     }
+  }
 
-    &__action-btn {
-        cursor: pointer;
+  &__images-captions {
+    margin: 0;
+    padding-top: 22px;
+    text-align: center;
+  }
 
-        @include for-extra-small {
-            width: 100% !important;
-            max-width: 290px;
-        }
+  &__images-areal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: $sm;
+    margin-top: 40px;
+
+    @include for-large-up {
+      flex-direction: row;
+      max-width: 1139px;
+      margin-top: 111px;
     }
+  }
 
-    &__images {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: #ffffff;
-        height: 300px;
-        width: 262px;
-        margin-bottom: 15px;
-        padding-top: 40px;
-        border-radius: 2px;
-        box-shadow: 0px 1px 3px 0px #0000001A;
-
-        &:hover {
-            background: $color-dark-blue;
-            cursor: pointer;
-
-            .audiences__images-captions {
-                color: #ffffff;
-                background: $color-dark-blue;
-            }
-
-            .audiences__images-picture {
-                background: $color-dark-blue;
-            }
-        }
-    }
-
-    &__images-captions {
-        margin: 0;
-        padding-top: 22px;
-        text-align: center;
-    }
-
-    &__images-areal {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        max-width: $sm;
-        margin-top: 40px;
-
-        @include for-large-up {
-            flex-direction: row;
-            max-width: 1139px;
-            margin-top: 111px;
-        }
-    }
-
-    &__images-fig {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+  &__images-fig {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
