@@ -21,3 +21,12 @@
     display: none;
   }
 }
+
+.top-section {
+  background-color: #f3c6bd;
+
+  @include for-large-up {
+    background-color: #f3c6bd;
+    padding-top: 39px;
+  }
+}

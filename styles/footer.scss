@@ -97,7 +97,7 @@
 
   a {
     text-decoration: none;
-    color: #2B292D99;
+    color: #2b292d99;
   }
 
   &__title {
@@ -137,8 +137,6 @@
 .terms {
   font-size: 14px;
   line-height: 22px;
-  margin-top: 30px;
-  margin-bottom: 50px;
 
   @include for-large-up {
     line-height: 50px;
@@ -166,36 +164,5 @@
     &:first-child {
       margin-left: 0;
     }
-  }
-}
-
-.logo-vertical {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  @include for-large-up {
-    display: none;
-  }
-
-  &__image {
-    width: 60px;
-    height: 60px;
-  }
-
-  &__name {
-    color: #2B292D;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 25px;
-    margin-top: 20px;
-  }
-
-  &__description {
-    color: $text-color-light-grey;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 25px;
   }
 }

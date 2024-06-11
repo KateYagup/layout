@@ -1,0 +1,35 @@
+.logo {
+  display: flex;
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__description {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+    color: #2b292d;
+    opacity: 0.6;
+  }
+
+  &__image {
+    width: 48px;
+    height: 48px;
+    margin-right: 13px;
+
+    @include for-large-up {
+      width: 60px;
+      height: 60px;
+      margin-right: 15px;
+    }
+  }
+
+  &__name {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+  }
+}
