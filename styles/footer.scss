@@ -37,6 +37,12 @@
   }
 }
 
+.logo-vertical {
+  @include for-large-up {
+    display: none;
+  }
+}
+
 .about-company {
   margin-top: 44px;
 }
@@ -75,6 +81,7 @@
   margin-right: 15px;
   display: flex;
   flex-direction: column;
+  margin-bottom: 30px;
 
   @include for-large-up {
     margin-top: 60px;
@@ -137,6 +144,7 @@
 .terms {
   font-size: 14px;
   line-height: 22px;
+  margin-bottom: 31px;
 
   @include for-large-up {
     line-height: 50px;

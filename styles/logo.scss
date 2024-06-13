@@ -33,3 +33,30 @@
     line-height: 25px;
   }
 }
+
+.logo-vertical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__image {
+    width: 60px;
+    height: 60px;
+  }
+
+  &__name {
+    font-weight: bold;
+    font-family: Work Sans;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  &__description {
+    font-family: Work Sans;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #2b292d80;
+  }
+}

@@ -354,6 +354,12 @@
   }
 }
 
+@media screen and (min-width: 391px) {
+  .logo-vertical {
+    display: none;
+  }
+}
+
 .about-company {
   margin-top: 44px;
 }
@@ -393,6 +399,7 @@
   margin-right: 15px;
   display: flex;
   flex-direction: column;
+  margin-bottom: 30px;
 }
 @media screen and (min-width: 391px) {
   .additional-navigation {
@@ -454,6 +461,7 @@
 .terms {
   font-size: 14px;
   line-height: 22px;
+  margin-bottom: 31px;
 }
 @media screen and (min-width: 391px) {
   .terms {
@@ -899,6 +907,31 @@
   font-size: 20px;
   font-weight: 700;
   line-height: 25px;
+}
+
+.logo-vertical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo-vertical__image {
+  width: 60px;
+  height: 60px;
+}
+.logo-vertical__name {
+  font-weight: bold;
+  font-family: Work Sans;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  margin-top: 20px;
+}
+.logo-vertical__description {
+  font-family: Work Sans;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: rgba(43, 41, 45, 0.5019607843);
 }
 
 * {
