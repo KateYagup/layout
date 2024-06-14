@@ -933,6 +933,11 @@
   text-align: center;
   color: rgba(43, 41, 45, 0.5019607843);
 }
+@media screen and (min-width: 391px) {
+  .logo-vertical {
+    display: none;
+  }
+}
 
 * {
   box-sizing: border-box;

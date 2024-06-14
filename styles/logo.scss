@@ -59,4 +59,7 @@
     text-align: center;
     color: #2b292d80;
   }
+  @include for-large-up {
+    display: none;
+  }
 }
