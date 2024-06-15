@@ -144,7 +144,7 @@
   }
 }
 .headline__description {
-  margin-top: 24px;
+  margin-top: 30px;
   font-size: 24px;
   line-height: 34px;
   margin-bottom: 0;
@@ -171,7 +171,7 @@
 }
 .headline__learn-more-btn {
   cursor: pointer;
-  color: #3040c4;
+  color: #000;
   background-color: #fff;
   width: 158px;
   height: 48px;
@@ -846,18 +846,18 @@
   background: #3141c5;
   cursor: pointer;
 }
-.audience__images:hover .audiences__images-captions {
+.audience__images:hover .audience__images-captions {
   color: #ffffff;
   background: #3141c5;
-  font-weight: 700;
 }
-.audience__images:hover .audiences__images-picture {
+.audience__images:hover .audience__images-picture {
   background: #3141c5;
 }
 .audience__images-captions {
   margin: 0;
   padding-top: 22px;
   text-align: center;
+  font-weight: 700;
 }
 .audience__images-areal {
   display: flex;
@@ -877,6 +877,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 0;
 }
 
 .logo {
