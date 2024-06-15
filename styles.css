@@ -824,8 +824,8 @@
 }
 @media (max-width: 390px) {
   .audience__action-btn {
-    width: 100% !important;
     width: 290px;
+    height: 48px;
   }
 }
 .audience__images {
