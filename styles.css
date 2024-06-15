@@ -750,13 +750,13 @@
   max-width: 100%;
 }
 
-.audiences {
+.audience {
   background: rgba(0, 161, 198, 0.0705882353);
   padding: 50px 15px 0 15px;
   max-width: 391px;
 }
 @media screen and (min-width: 391px) {
-  .audiences {
+  .audience {
     max-width: 100%;
     display: flex;
     flex-direction: column;
@@ -764,13 +764,13 @@
     padding-top: 108px;
   }
 }
-.audiences__subtitle {
+.audience__subtitle {
   margin: 0;
   text-align: center;
   font-size: 22px;
   line-height: 34px;
 }
-.audiences__title {
+.audience__title {
   font-size: 40px;
   line-height: 40px;
   letter-spacing: -0.3571428955px;
@@ -781,7 +781,7 @@
   margin-top: 17px;
 }
 @media screen and (min-width: 391px) {
-  .audiences__title {
+  .audience__title {
     max-width: 555px;
     font-size: 56px;
     line-height: 56px;
@@ -790,7 +790,7 @@
     margin-top: 24px;
   }
 }
-.audiences__description {
+.audience__description {
   max-width: 391px;
   font-size: 24px;
   line-height: 34px;
@@ -799,12 +799,12 @@
   margin-top: 18px;
 }
 @media screen and (min-width: 391px) {
-  .audiences__description {
+  .audience__description {
     max-width: 555px;
     margin-top: 30px;
   }
 }
-.audiences__actions {
+.audience__actions {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -813,21 +813,21 @@
   padding-right: 15px;
 }
 @media screen and (min-width: 391px) {
-  .audiences__actions {
+  .audience__actions {
     flex-direction: row;
     margin-top: 34px;
   }
 }
-.audiences__action-btn {
+.audience__action-btn {
   cursor: pointer;
 }
 @media (max-width: 390px) {
-  .audiences__action-btn {
+  .audience__action-btn {
     width: 100% !important;
     max-width: 290px;
   }
 }
-.audiences__images {
+.audience__images {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -840,23 +840,23 @@
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1019607843);
   margin-left: 5px;
 }
-.audiences__images:hover {
+.audience__images:hover {
   background: #3141c5;
   cursor: pointer;
 }
-.audiences__images:hover .audiences__images-captions {
+.audience__images:hover .audiences__images-captions {
   color: #ffffff;
   background: #3141c5;
 }
-.audiences__images:hover .audiences__images-picture {
+.audience__images:hover .audiences__images-picture {
   background: #3141c5;
 }
-.audiences__images-captions {
+.audience__images-captions {
   margin: 0;
   padding-top: 22px;
   text-align: center;
 }
-.audiences__images-areal {
+.audience__images-areal {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -864,13 +864,13 @@
   margin-top: 40px;
 }
 @media screen and (min-width: 391px) {
-  .audiences__images-areal {
+  .audience__images-areal {
     flex-direction: row;
     max-width: 1139px;
     margin-top: 111px;
   }
 }
-.audiences__images-fig {
+.audience__images-fig {
   display: flex;
   flex-direction: column;
   align-items: center;
