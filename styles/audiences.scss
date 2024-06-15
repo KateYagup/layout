@@ -88,7 +88,8 @@
     background-color: #ffffff;
     height: 300px;
     width: 262px;
-    margin-bottom: 15px;
+    // margin-bottom: 15px;
+    margin-top: 0;
     padding-top: 40px;
     border-radius: 2px;
     box-shadow: 0px 1px 3px 0px #0000001a;
@@ -101,6 +102,7 @@
       .audiences__images-captions {
         color: #ffffff;
         background: $color-dark-blue;
+        font-weight: 700;
       }
 
       .audiences__images-picture {

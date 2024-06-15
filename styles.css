@@ -144,7 +144,7 @@
   }
 }
 .headline__description {
-  margin-top: 30px;
+  margin-top: 24px;
   font-size: 24px;
   line-height: 34px;
   margin-bottom: 0;
@@ -836,7 +836,7 @@
   background-color: #ffffff;
   height: 300px;
   width: 262px;
-  margin-bottom: 15px;
+  margin-top: 0;
   padding-top: 40px;
   border-radius: 2px;
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1019607843);
@@ -849,6 +849,7 @@
 .audience__images:hover .audiences__images-captions {
   color: #ffffff;
   background: #3141c5;
+  font-weight: 700;
 }
 .audience__images:hover .audiences__images-picture {
   background: #3141c5;
