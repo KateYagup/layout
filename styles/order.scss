@@ -54,10 +54,11 @@
     font-size: 22px;
     line-height: 32px;
     margin: 0;
-    margin-top: 12px;
+    // margin-top: 12px;
   }
 
   &__form {
+    margin-top: 79px;
     @include for-large-up {
       display: flex;
       justify-content: space-between;
@@ -66,7 +67,7 @@
   }
 
   &__email {
-    margin-top: 40px;
+    // margin-top: 40px;
     background: #ffffff;
     border: 1px solid $border-color;
     border-radius: 2px;
