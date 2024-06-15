@@ -825,7 +825,7 @@
 @media (max-width: 390px) {
   .audience__action-btn {
     width: 100% !important;
-    max-width: 290px;
+    width: 290px;
   }
 }
 .audience__images {

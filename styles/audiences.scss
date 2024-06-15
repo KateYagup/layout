@@ -74,7 +74,8 @@
 
     @include for-extra-small {
       width: 100% !important;
-      max-width: 290px;
+      //   max-width: 290px;
+      width: 290px;
     }
   }
 
