@@ -179,7 +179,7 @@
   font-weight: 700;
   border-radius: 2px;
   border: none;
-  margin-top: 15px;
+  margin-top: 12px;
 }
 @media screen and (min-width: 391px) {
   .headline__learn-more-btn {
@@ -826,6 +826,7 @@
   .audience__action-btn {
     width: 290px;
     height: 48px;
+    padding-top: 0;
   }
 }
 .audience__images {
