@@ -73,8 +73,6 @@
     cursor: pointer;
 
     @include for-extra-small {
-      //   width: 100% !important;
-      //   max-width: 290px;
       width: 290px;
       height: 48px;
       padding-top: 0;

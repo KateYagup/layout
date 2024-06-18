@@ -354,12 +354,6 @@
   }
 }
 
-@media screen and (min-width: 391px) {
-  .logo-vertical {
-    display: none;
-  }
-}
-
 .about-company {
   margin-top: 44px;
 }

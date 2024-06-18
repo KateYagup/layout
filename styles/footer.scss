@@ -37,12 +37,6 @@
   }
 }
 
-.logo-vertical {
-  @include for-large-up {
-    display: none;
-  }
-}
-
 .about-company {
   margin-top: 44px;
 }
