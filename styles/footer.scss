@@ -54,6 +54,7 @@
 
   @include for-large-up {
     width: 1140px;
+    height: 338px;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -144,7 +145,6 @@
 .terms {
   font-size: 14px;
   line-height: 22px;
-  margin-bottom: 31px;
 
   @include for-large-up {
     line-height: 50px;

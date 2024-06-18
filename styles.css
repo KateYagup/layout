@@ -372,6 +372,7 @@
 @media screen and (min-width: 391px) {
   .footer-navigation {
     width: 1140px;
+    height: 338px;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -461,7 +462,6 @@
 .terms {
   font-size: 14px;
   line-height: 22px;
-  margin-bottom: 31px;
 }
 @media screen and (min-width: 391px) {
   .terms {
@@ -842,6 +842,7 @@
   border-radius: 2px;
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1019607843);
   margin-left: 5px;
+  margin-bottom: 15px;
 }
 .audience__images:hover {
   background: #3141c5;
