@@ -26,7 +26,7 @@
     margin-top: 40px;
 
     @include for-large-up {
-      margin: 59px 0 15px;
+      // margin: 59px 0 15px;
     }
   }
 
@@ -154,6 +154,7 @@
 
 .social-links {
   margin-bottom: 23px;
+  margin-top: 30px;
 
   @include for-large-up {
     margin-left: auto;
